@@ -23,8 +23,8 @@ const MyAssessment = () => {
     <div className="my-assessment">
       <p className="head">My Assessment</p>
       <div className="assessments">
-        <div className="new-assessment common-1">
-          <div className="icon" onClick={toggleModal}>
+        <div onClick={toggleModal} className="new-assessment common-1">
+          <div className="icon">
             <p>
               <RxPlus />
             </p>
@@ -39,23 +39,28 @@ const MyAssessment = () => {
 
         <div className="math-assessment common-1">
           <div className="icon">
-            <p>
-              <VscBriefcase />
-            </p>
-            <p>
+            <div className="abouve">
+              <p className="ic">
+                <VscBriefcase />
+              </p>
+              <div className="bottom">
+                <p className="head">Math Assessment</p>
+                <div className="job">
+                  <p>Job</p>
+                  <p>
+                    <span>
+                      <LuCalendarDays />
+                    </span>{" "}
+                    20 Apr 2023
+                  </p>
+                </div>
+              </div>
+            </div>
+            <p className="option">
               <BsThreeDotsVertical />
             </p>
           </div>
-          <p className="head">Math Assessment</p>
-          <div className="job">
-            <p>Job</p>
-            <p>
-              <span>
-                <LuCalendarDays />
-              </span>{" "}
-              20 Apr 2023
-            </p>
-          </div>
+
           <div className="duration">
             <div className="common">
               <p className="dur">
@@ -81,21 +86,25 @@ const MyAssessment = () => {
 
         <div className="math-assessment common-1">
           <div className="icon">
-            <p>
-              <VscBriefcase />
-            </p>
-            <p>
+            <div className="abouve">
+              <p className="ic">
+                <VscBriefcase />
+              </p>
+              <div className="bottom">
+                <p className="head">Math Assessment</p>
+                <div className="job">
+                  <p>Job</p>
+                  <p>
+                    <span>
+                      <LuCalendarDays />
+                    </span>{" "}
+                    20 Apr 2023
+                  </p>
+                </div>
+              </div>
+            </div>
+            <p className="option">
               <BsThreeDotsVertical />
-            </p>
-          </div>
-          <p className="head">Math Assessment</p>
-          <div className="job">
-            <p>Job</p>
-            <p>
-              <span>
-                <LuCalendarDays />
-              </span>{" "}
-              20 Apr 2023
             </p>
           </div>
           <div className="duration">
